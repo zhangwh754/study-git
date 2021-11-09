@@ -58,3 +58,18 @@ git switch -c develop
 在 develop 进行提交
 不会影响 main 分支
 main 分支添加任意文字，进行提交
+
+![image-20211109232951666](https://gitee.com/zhang754/blogimg/raw/master/img/image-20211109232951666.png)
+
+![image-20211109233013975](https://gitee.com/zhang754/blogimg/raw/master/img/image-20211109233013975.png)
+
+![image-20211109233027077](https://gitee.com/zhang754/blogimg/raw/master/img/image-20211109233027077.png)
+
+手动解决冲突再进行提交
+
+再删除develop分支
+
+```
+g
+```
+
