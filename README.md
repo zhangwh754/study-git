@@ -46,3 +46,15 @@ git branch -d dev
 ```
 
 不会影响main分支
+
+## 冲突解决
+
+新建分支并移动到分支develop
+
+```
+git switch -c develop
+```
+
+在develop的readme添加冲突解决该段文字
+
+在develop进行提交
