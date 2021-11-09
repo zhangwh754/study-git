@@ -16,7 +16,16 @@ git branch
 
 ## 正常提交
 
+对README修改后提交
+
+```
+git add README.md
+git commit -m "测试分支提交"
 ```
 
+## 切换回原分支
+
+```
+git switch master
 ```
 
