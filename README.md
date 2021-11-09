@@ -30,3 +30,13 @@ git switch master
 ```
 
 发现dev分支的修改的README.md内容全部消失了
+
+## 合并内容
+
+```
+git merge dev
+```
+
+如果没有冲突此时main分支的readme文件将合并dev分支,两者一样
+
+## 删除分支
