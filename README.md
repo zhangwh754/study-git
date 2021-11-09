@@ -70,6 +70,6 @@ main 分支添加任意文字，进行提交
 再删除develop分支
 
 ```
-g
+git branch -d develop
 ```
 
