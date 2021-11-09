@@ -1,4 +1,4 @@
-## 创建并切换到新分支dev
+## 创建并切换到新分支 dev
 
 ```
 git switch -c dev
@@ -16,7 +16,7 @@ git branch
 
 ## 正常提交
 
-对README修改后提交
+对 README 修改后提交
 
 ```
 git add README.md
@@ -29,7 +29,7 @@ git commit -m "测试分支提交"
 git switch master
 ```
 
-发现dev分支的修改的README.md内容全部消失了
+发现 dev 分支的修改的 README.md 内容全部消失了
 
 ## 合并内容
 
@@ -37,7 +37,7 @@ git switch master
 git merge dev
 ```
 
-如果没有冲突此时main分支的readme文件将合并dev分支,两者一样
+如果没有冲突此时 main 分支的 readme 文件将合并 dev 分支,两者一样
 
 ## 删除分支
 
@@ -45,4 +45,16 @@ git merge dev
 git branch -d dev
 ```
 
-main分支添加任意文字，进行提交
+## 冲突解决
+
+新建分支并移动到分支 develop
+
+```
+git switch -c develop
+```
+
+在 develop 的 readme 添加冲突解决该段文字
+
+在 develop 进行提交
+不会影响 main 分支
+main 分支添加任意文字，进行提交
