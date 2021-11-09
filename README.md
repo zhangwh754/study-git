@@ -40,3 +40,9 @@ git merge dev
 如果没有冲突此时main分支的readme文件将合并dev分支,两者一样
 
 ## 删除分支
+
+```
+git branch -d dev
+```
+
+不会影响main分支
