@@ -45,4 +45,4 @@ git merge dev
 git branch -d dev
 ```
 
-不会影响main分支
+main分支添加任意文字，进行提交
