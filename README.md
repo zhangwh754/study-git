@@ -73,3 +73,16 @@ main 分支添加任意文字，进行提交
 git branch -d develop
 ```
 
+
+
+
+
+## 查看历史提交修改的文件
+
+```
+git log --stat
+```
+
+![image-20211229154848978](https://gitee.com/zhang754/blogimg/raw/master/img/image-20211229154848978.png)
+
+在 终端 按下q，可以离开git log
