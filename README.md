@@ -86,3 +86,12 @@ git log --stat
 ![image-20211229154848978](https://gitee.com/zhang754/blogimg/raw/master/img/image-20211229154848978.png)
 
 在 终端 按下q，可以离开git log
+
+
+
+## 回退历史分支
+
+```sh
+git reset --hard 分支哈希值
+```
+
