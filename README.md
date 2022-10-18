@@ -95,3 +95,9 @@ git log --stat
 git reset --hard 分支哈希值
 ```
 
+## 在github上建立gh-pages分支
+
+[在github上建立gh-pages分支 - 简书 (jianshu.com)](https://www.jianshu.com/p/2352c5a6f229?t=1499761991320)
+
+[巧用gh-pages分支发布自己的静态项目_nqmysb的博客-CSDN博客](https://blog.csdn.net/nqmysbd/article/details/88764425)
+
